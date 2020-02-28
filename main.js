@@ -24,9 +24,8 @@ btn.addEventListener('click',function() {
       }
     } else {
         ul.innerHTML ='';
-        const nan = document.createElement('li');
-        nan.innerHTML = "整数値ではありません";
-        ul.appendChild(nan);
+        li.innerHTML = "整数値ではありません";
+        ul.appendChild(li);
       }
   })
 
